@@ -12,9 +12,7 @@
   margin: 0;
   padding: 0;
 }
-.background_red {
-  background-color: #f6484a;
-}
+
 .main {
   overflow: hidden;
   height: 92vh;
@@ -121,7 +119,9 @@ video {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
 }
-
+.background_red {
+  background-color: #f6484a;
+}
 @media (max-width: 700px) {
   #show_chat {
     display: flex;
